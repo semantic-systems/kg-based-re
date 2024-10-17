@@ -10,9 +10,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from tqdm import tqdm
 import jsonlines
 import graph_tool.all as gt
-# sparqlwrapper = SPARQLWrapper("https://qlever.cs.uni-freiburg.de/api/wikidata")
-# sparqlwrapper = SPARQLWrapper("https://query.wikidata.org/sparql")
-sparqlwrapper = SPARQLWrapper("http://localhost:3030/server/sparql")
+sparqlwrapper = SPARQLWrapper("anonymized")
 
 def create_single_hop_query(qids_str: str):
     single_hop_query = f"""

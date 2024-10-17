@@ -9,7 +9,7 @@ from SPARQLWrapper import JSON
 from tqdm import tqdm
 import graph_tool.all as gt
 
-sparqlwrapper = SPARQLWrapper("http://sems-ai-1:1234/api/endpoint/sparql")
+sparqlwrapper = SPARQLWrapper("anonymized")
 
 
 
