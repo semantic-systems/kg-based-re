@@ -13,7 +13,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from tqdm import tqdm
 import graph_tool.all as gt
 
-sparqlwrapper = SPARQLWrapper("http://sems-ai-1:1234/api/endpoint/sparql")
+sparqlwrapper = SPARQLWrapper("anonymized")
 
 def get_examples_per_relation(relation_dict: dict, num_triples: int = 2000):
     qid_pairs = defaultdict(set)

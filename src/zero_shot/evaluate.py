@@ -51,17 +51,13 @@ if __name__ == "__main__":
     argparser.add_argument("--num_workers", type=int, default=2)
     argparser.add_argument("--accumulate_grad_batches", type=int, default=1)
     argparser.add_argument("--other_properties", type=int, default=5)
-    argparser.add_argument("--hard_other_properties", type=int, default=0)
     argparser.add_argument("--include_descriptions", action="store_true", default=False)
-    argparser.add_argument("--include_types", action="store_true", default=False)
-    argparser.add_argument("--use_predicted_candidates", action="store_true", default=False)
-    argparser.add_argument("--use_all_predicted_candidates", action="store_true", default=False)
     argparser.add_argument("--remove_direct_link", action="store_true", default=False)
     argparser.add_argument("--use_filtered_meta_graph", action="store_true", default=False)
     argparser.add_argument("--empty_graph", action="store_true", default=False)
     argparser.add_argument("--only_graph", action="store_true", default=False)
     argparser.add_argument("--tag", type=str, default="")
-    argparser.add_argument("--num_hops", type=int, default=6)
+    argparser.add_argument("--num_hops", type=int, default=4)
 
 
     args = argparser.parse_args()
