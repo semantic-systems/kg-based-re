@@ -3,9 +3,6 @@ It is the prerequisite for all further experiments.
 
 #  Zero-shot setting
 
-DISCLAIMER: We were not able to upload all the auxiliary files in an anonymized way due to their size (especially the used graphs). 
-We will upload them for the published paper.
-
 ## Steps to reproduce
 
 1. Unpack the following files:
