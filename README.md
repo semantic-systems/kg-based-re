@@ -1,9 +1,15 @@
+# Code for Analyzing the Influence of Knowledge Graph Information on Relation Extraction
+
+Paper: [https://arxiv.org/pdf/2506.16343](https://arxiv.org/pdf/2506.16343)
+
+Download all the data from: [https://drive.google.com/file/d/1mN5OL6UrWDKr0lxyzjNJxWmk6pvJr2zP/view?usp=sharing](https://drive.google.com/file/d/1mN5OL6UrWDKr0lxyzjNJxWmk6pvJr2zP/view?usp=sharing)
+
 Install the ULTRA model from the following repository: [https://github.com/DeepGraphLearning/ULTRA](https://github.com/DeepGraphLearning/ULTRA).
 It is the prerequisite for all further experiments.
 
-#  Zero-shot setting
+##  Zero-shot setting
 
-## Steps to reproduce
+### Steps to reproduce
 
 1. Unpack the following files:
     * [wiki.tar.gz](wiki.tar.gz)
@@ -22,7 +28,7 @@ It is the prerequisite for all further experiments.
     ```
    
 
-## Functions
+### Functions
 Arguments for `train.py`:
 
 | Argument                  | Type      | Default Value     | Description                                                                                                        |
@@ -59,9 +65,9 @@ Arguments for `evaluate.py`:
 
 
 
-#  Supervised setting
+##  Supervised setting
 
-## Steps to reproduce
+### Steps to reproduce
 
 1. Unpack the following files:
     * [dwie.tar.gz](dwie.tar.gz)
@@ -81,7 +87,7 @@ Arguments for `evaluate.py`:
     ```
    
 
-## Functions
+### Functions
 Arguments for `train.py`:
 
 
